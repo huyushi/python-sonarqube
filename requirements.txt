@@ -1,0 +1,6 @@
+flask
+click
+pytest
+black
+flake8
+pytest-cov
