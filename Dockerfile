@@ -21,7 +21,7 @@ RUN flake8 --exclude=venv* --ignore=E501 .
 
 RUN pytest -s -v
 
-RUN sonar-scanner -X  -Dsonar.host.url="http://172.20.32.1:9000/" \
+RUN sonar-scanner -X  -Dsonar.host.url="http://10.212.43.107:9000/" \
                       -Dsonar.projectName="my_python" \
                       -Dsonar.projectKey="my_python" \
                       -Dsonar.python.coverage.reportPaths=coverage.xml \
